@@ -1,0 +1,26 @@
+.table {
+  margin: 30px auto;
+  box-shadow: 1px 3px 3px rgb(187, 187, 187), -1px 3px 3px rgb(187, 187, 187),
+    0px -1px 3px 3px rgb(187, 187, 187);
+  border-color: black;
+  border-spacing: 10px;
+  table-layout: fixed;
+  width: 50vw;
+  text-align: center;
+  border-radius: 3px;
+}
+@media screen and (max-width: 400px) {
+  .table {
+    width: 100vw;
+  }
+}
+.head {
+  background-color: rgb(226, 198, 38);
+  color: aliceblue;
+  table-layout: auto;
+  font-size: 18px;
+}
+.body {
+  background-color: rgb(235, 248, 186);
+  color: rgb(114, 121, 129);
+}

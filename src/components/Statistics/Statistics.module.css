@@ -1,0 +1,42 @@
+/* :root {
+  --random-color: blue;
+} */
+.statistics {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 30px 0;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin: 0 auto;
+  /* padding: 20px; */
+  width: fit-content;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 45px;
+  background-color: white;
+}
+.statList {
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  /* background-color: var(--random-color); */
+}
+.label {
+  font-size: 12px;
+}
+.percentage {
+  font-size: 60px;
+}

@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  padding: 10px 0;
+  list-style: none;
+  box-shadow: 1px 3px 3px rgb(187, 187, 187), -1px 3px 3px rgb(187, 187, 187),
+    0px -1px 3px 3px rgb(187, 187, 187);
+}
+.status {
+  margin: 0 10px 0 30px;
+  background-color: brown;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+}
+.avatar {
+  width: 50px;
+  margin: 0 7px;
+}
+.name {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
+.true {
+  background-color: green;
+}
+.false {
+  background-color: red;
+}
